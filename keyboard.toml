@@ -1,7 +1,7 @@
 # Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
 [keyboard]
 name = "1800mini"
-product_name = " SI_RMK Keyboard"
+product_name = "1800mini"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "haobo"
@@ -47,4 +47,4 @@ keymap = [
 
 [storage]
 # Storage feature is enabled by default
-# enabled = false
+enabled = false
