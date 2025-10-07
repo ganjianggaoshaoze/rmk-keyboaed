@@ -1,11 +1,11 @@
 # Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
 [keyboard]
-name = "RMK Keyboard"
-product_name = "RMK Keyboard"
+name = "1800mini"
+product_name = " SI_RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "haobo"
-chip = "rp2040"
+chip = "nrf52840"
 
 [matrix]
 # Input and output pins are mandatory
@@ -16,20 +16,19 @@ output_pins = ["PIN_19", "PIN_20", "PIN_21"]
 
 [layout]
 rows = 4
-cols = 3
-layers = 2
+cols = 15
+layers = 4
 keymap = [
-    [
-        ["A", "B", "C"],
-        ["Kc1", "Kc2", "Kc3"],
-        ["LCtrl", "MO(1)", "LShift"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
+    [[k!(Grave),k!(Q), k!(W), k!(E), k!(R), k!(T), k!(Y), k!(U), k!(I), k!(O), k!(P),k!(Backspace), k!(Kc7), k!(Kc8), k!(Kc9)]
+    [k!(Escape), k!(A), k!(S), k!(D), k!(F), k!(G), k!(H), k!(J), k!(K), k!(L),k!(Enter), a!(No), k!(Kc4), k!(Kc5), k!(Kc6)]
+    [k!(LShift), k!(Z), k!(X), k!(C), k!(V), k!(B), k!(N), k!(M), k!(Slash),k!(RShift),a!(No), UP,k!(Kc1), k!(Kc2), k!(Kc3)]
+    [k!(LCtrl), k!(LGui), k!(LAlt),k!(Space), a!(No), a!(No),k!(Space), a!(No), mo!(1),LEFT,DOWN,RIGHT,Dot, k!(Kc0),]
     ],
     [
-        ["_", "TT(1)", "TG(2)"],
-        ["_", "_", "_"],
-        ["_", "_", "_"],
-        ["_", "_", "_"]
+     #   ["_", "TT(1)", "TG(2)"],
+     #   ["_", "_", "_"],
+     #   ["_", "_", "_"],
+     #   ["_", "_", "_"]
     ],
 ]
 
