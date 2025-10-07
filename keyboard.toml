@@ -9,8 +9,8 @@ chip = "nrf52840"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-output_pins = ["PIN_19", "PIN_20", "PIN_21"]
+input_pins = ["P6", "P8", "P17", "P20", "P22"]
+output_pins = ["P24","P1_00","P11","P1_04","P1_06","P12", "P23", "P21", "P19", "P7", "P9", "P10", "P2", "P29", "P31"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
@@ -25,6 +25,11 @@ keymap = [
     [k!(LCtrl), k!(LGui), k!(LAlt),k!(Space), a!(No), a!(No),k!(Space), a!(No), mo!(1),LEFT,DOWN,RIGHT,Dot, k!(Kc0),]
     ],
     [
+    ["_","_","_","_","_","_","_","_","_","_","_","_","_","_","_"]
+    ["_","_","_","_","_","_","_","_","_","_","_","_","_","_","_"]
+    ["_","_","_","_","_","_","_","_","_","_","_","_","_","_"]
+    ["_","_","_","_","_","_","_","_","_","_","_","_","_","_"]
+    ["_","_","_","_","_","_","_","_","_","_","_","_"]
      #   ["_", "TT(1)", "TG(2)"],
      #   ["_", "_", "_"],
      #   ["_", "_", "_"],
