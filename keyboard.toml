@@ -47,4 +47,4 @@ keymap = [
 
 [storage]
 # Storage feature is enabled by default
-enabled = false
+#enabled = false
