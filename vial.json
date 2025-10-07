@@ -5,33 +5,206 @@
     "lighting": "none",
     "matrix": {
         "rows": 4,
-        "cols": 3
+        "cols": 15
     },
+
+  "customKeycodes": [
+
+    {
+
+      "name": "BT0",
+
+      "title": "Bluetooth Channel 0",
+
+      "shortName": "BT0"
+
+    },
+
+    {
+
+      "name": "BT1",
+
+      "title": "Bluetooth Channel 1",
+
+      "shortName": "BT1"
+
+    },
+
+    {
+
+      "name": "BT2",
+
+      "title": "Bluetooth Channel 2",
+
+      "shortName": "BT2"
+
+    },
+
+    {
+
+      "name": "BT3",
+
+      "title": "Bluetooth Channel 3",
+
+      "shortName": "BT3"
+
+    },
+
+    {
+
+      "name": "NEXT_BT",
+
+      "title": "Switch to the next Bluetooth channel",
+
+      "shortName": "Next\nBT"
+
+    },
+
+    {
+
+      "name": "PREV_BT",
+
+      "title": "Switch to the previous Bluetooth channel",
+
+      "shortName": "Prev\nBT"
+
+    },
+
+    {
+
+      "name": "CLR_BT",
+
+      "title": "Clear bond info for current channel",
+
+      "shortName": "Clear\nBT"
+
+    },
+
+    {
+
+      "name": "SWITCH",
+
+      "title": "Switch default output mode between USB/BLE",
+
+      "shortName": "Switch\nOutput"
+
+    }
+
+  ],
     "layouts": {
         "keymap": [
-            [
-                "0,0",
-                "0,1",
-                "0,2"
-            ],
-            [
-                "1,0",
-                "1,1",
-                "1,2"
-            ],
-            [
-                "2,0",
-                "2,1",
-                "2,2"
-            ],
-            [
-                {
-                    "y": -2,
-                    "x": 4
-                },
-                "3,0",
-                "3,2"
-            ]
-        ]
+  [
+    "0,0",
+    "0,1",
+    "0,2",
+    "0,3",
+    "0,4",
+    "0,5",
+    "0,6",
+    "0,7",
+    "0,8",
+    "0,9",
+    "0,10",
+    "0,11",
+    {
+      "x": 0.5
+    },
+    "0,12",
+    "0,13",
+    "0,14"
+  ],
+  [
+    {
+      "w": 1.25
+    },
+    "1,0",
+    "1,1",
+    "1,2",
+    "1,3",
+    "1,4",
+    "1,5",
+    "1,6",
+    "1,7",
+    "1,8",
+    "1,9",
+    {
+      "w": 1.75
+    },
+    "1,10",
+    {
+      "x": 0.5
+    },
+    "1,12",
+    "1,13",
+    "1,14"
+  ],
+  [
+    {
+      "w": 1.75
+    },
+    "2,0",
+    "2,1",
+    "2,2",
+    "2,3",
+    "2,4",
+    "2,5",
+    "2,6",
+    "2,7",
+    "2,8",
+    {
+      "w": 1.25
+    },
+    "2,9",
+    {
+      "x": 1.5
+    },
+    "2,12",
+    "2,13",
+    "2,14"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 11.25
+    },
+    "2,11"
+  ],
+  [
+    {
+      "y": -0.25,
+      "w": 1.25
+    },
+    "3,0",
+    "3,1",
+    {
+      "w": 1.25
+    },
+    "3,2",
+    {
+      "w": 2.25
+    },
+    "3,3",
+    {
+      "x": 0.5,
+      "w": 2.75
+    },
+    "3,6",
+    "3,8",
+    {
+      "x": 3.5
+    },
+    "3,13",
+    "3,14"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 10.25
+    },
+    "3,9",
+    "3,11",
+    "3,12"
+  ]
+]
     }
 }
