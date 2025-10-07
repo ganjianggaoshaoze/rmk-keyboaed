@@ -20,10 +20,10 @@ cols = 15
 layers = 4
 keymap = [
     [
-        [k!(Grave),k!(Q), k!(W), k!(E), k!(R), k!(T), k!(Y), k!(U), k!(I), k!(O), k!(P),k!(Backspace), k!(Kc7), k!(Kc8), k!(Kc9)],
-        [k!(Escape), k!(A), k!(S), k!(D), k!(F), k!(G), k!(H), k!(J), k!(K), k!(L),k!(Enter), a!(No), k!(Kc4), k!(Kc5), k!(Kc6)],
-        [k!(LShift), k!(Z), k!(X), k!(C), k!(V), k!(B), k!(N), k!(M), k!(Slash),k!(RShift),a!(No), UP,k!(Kc1), k!(Kc2), k!(Kc3)],
-        [k!(LCtrl), k!(LGui), k!(LAlt),k!(Space), a!(No), a!(No),k!(Space), a!(No), mo!(1),LEFT,DOWN,RIGHT,k!(Kc0),Dot]
+        ["Escape", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P","Backspace","Kc7","Kc8","Kc9"],
+        ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L","Enter","_","Kc4","Kc5","Kc6"],
+        ["LShift", "Z", "X", "C", "V", "B", "N", "M","Slash","RShift","_","UP","Kc1","Kc2","Kc3"],
+        ["LCtrl","LGui","LAlt","Space","_", "_","Space","_", "mo!(1)","LEFT","DOWN","RIGHT","Kc0","Dot"]
     ],
     [
         ["Grave","_","_","_","_","_","_","_","_","_","_","_","_","_","_"],
